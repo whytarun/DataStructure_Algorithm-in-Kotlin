@@ -22,7 +22,6 @@ class TestArrays{
     }
 
     fun max(a1 : Int, a2 :Int): Int {
-        println("a1=$a1 a2=$a2")
         if (a1 > a2)
             return a1
         return a2
